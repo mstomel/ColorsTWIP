@@ -15,7 +15,7 @@ public class Main {
             HexProcessor();
         }
         else if (inType.equalsIgnoreCase("name")) {
-
+            NameProcessor();
         }
         else {
             System.out.println("invalid input");
@@ -35,7 +35,7 @@ public class Main {
         Integer.valueOf(hexIn.substring( 3, 5 ), 16 );
         Integer.valueOf(hexIn.substring( 5, 7 ), 16 );*/
     }
-    public void NameProcessor() {
+    private static void NameProcessor() {
 
     }
 }
